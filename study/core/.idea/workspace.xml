@@ -59,6 +59,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "1d2dfe7cbec4cb85764de7dce500cd05",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,34 +71,8 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.OrderApp">
-    <configuration name="MemberApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello.core.MemberApp" />
-      <module name="core.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello.core.OrderApp" />
-      <module name="core.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ApplicationContextExtendsFindTest.findAllBeanByObjectType">
+    <configuration name="ApplicationContextExtendsFindTest.findAllBeanByObjectType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -110,7 +85,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.order.OrderServiceTest&quot;" />
+            <option value="&quot;hello.core.beanfind.ApplicationContextExtendsFindTest.findAllBeanByObjectType&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -120,7 +95,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RateDiscountPolicyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ApplicationContextExtendsFindTest.findAllBeanByParentType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -133,7 +108,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.discount.RateDiscountPolicyTest&quot;" />
+            <option value="&quot;hello.core.beanfind.ApplicationContextExtendsFindTest.findAllBeanByParentType&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,7 +118,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="'core.test'에 있는 테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ApplicationContextExtendsFindTest.findBeanByParentTypeBeanName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -155,6 +130,54 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.core.beanfind.ApplicationContextExtendsFindTest.findBeanByParentTypeBeanName&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ApplicationContextExtendsFindTest.findBeanByParentTypeDuplicate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.core.beanfind.ApplicationContextExtendsFindTest.findBeanByParentTypeDuplicate&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ApplicationContextExtendsFindTest.findBeanBySubType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.core.beanfind.ApplicationContextExtendsFindTest.findBeanBySubType&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.'core.test'에 있는 테스트" />
-        <item itemvalue="Gradle.OrderServiceTest" />
-        <item itemvalue="애플리케이션.OrderApp" />
-        <item itemvalue="애플리케이션.MemberApp" />
-        <item itemvalue="Gradle.RateDiscountPolicyTest" />
+        <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findAllBeanByObjectType" />
+        <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findAllBeanByParentType" />
+        <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findBeanBySubType" />
+        <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findBeanByParentTypeBeanName" />
+        <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findBeanByParentTypeDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -189,11 +212,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673224729403</updated>
-      <workItem from="1673224731045" duration="11701000" />
+      <workItem from="1673224731045" duration="11703000" />
+      <workItem from="1673309625459" duration="7471000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextSameBeanFindTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java</url>
+          <line>31</line>
+          <properties class="hello.core.beanfind.ApplicationContextExtendsFindTest" method="findBeanByParentTypeBeanName">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
