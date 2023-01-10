@@ -32,6 +32,7 @@
         <option value="Kotlin Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -71,7 +72,7 @@
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ApplicationContextExtendsFindTest.findAllBeanByObjectType">
+  <component name="RunManager" selected="Gradle.BeanDefinitionTest.findApplicationBean">
     <configuration name="ApplicationContextExtendsFindTest.findAllBeanByObjectType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -118,7 +119,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationContextExtendsFindTest.findBeanByParentTypeBeanName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BeanDefinitionTest.findApplicationBean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -131,7 +132,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.beanfind.ApplicationContextExtendsFindTest.findBeanByParentTypeBeanName&quot;" />
+            <option value="&quot;hello.core.beandefinition.BeanDefinitionTest.findApplicationBean&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -141,7 +142,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationContextExtendsFindTest.findBeanByParentTypeDuplicate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="XmlAppContext" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -154,7 +155,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.beanfind.ApplicationContextExtendsFindTest.findBeanByParentTypeDuplicate&quot;" />
+            <option value="&quot;hello.core.xml.XmlAppContext&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -164,7 +165,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationContextExtendsFindTest.findBeanBySubType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="XmlAppContext.xmlAppContext" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -177,7 +178,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.beanfind.ApplicationContextExtendsFindTest.findBeanBySubType&quot;" />
+            <option value="&quot;hello.core.xml.XmlAppContext.xmlAppContext&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BeanDefinitionTest.findApplicationBean" />
+        <item itemvalue="Gradle.XmlAppContext.xmlAppContext" />
+        <item itemvalue="Gradle.XmlAppContext" />
         <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findAllBeanByObjectType" />
         <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findAllBeanByParentType" />
-        <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findBeanBySubType" />
-        <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findBeanByParentTypeBeanName" />
-        <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findBeanByParentTypeDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +214,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673224729403</updated>
       <workItem from="1673224731045" duration="11703000" />
-      <workItem from="1673309625459" duration="7471000" />
+      <workItem from="1673309625459" duration="11484000" />
     </task>
     <servers />
   </component>
