@@ -31,8 +31,8 @@
         <option value="Enum" />
         <option value="Kotlin Class" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="spring-beans.schema" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -48,32 +48,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/dlgud/Desktop/SpringBoot/study/core",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "1d2dfe7cbec4cb85764de7dce500cd05",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dlgud/Desktop/SpringBoot/study/core&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1d2dfe7cbec4cb85764de7dce500cd05&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="singleton" />
       <recent name="hello.core.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BeanDefinitionTest.findApplicationBean">
-    <configuration name="ApplicationContextExtendsFindTest.findAllBeanByObjectType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.'core.test'에 있는 테스트">
+    <configuration name="ConfigurationSingletonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -86,7 +87,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.beanfind.ApplicationContextExtendsFindTest.findAllBeanByObjectType&quot;" />
+            <option value="&quot;singleton.ConfigurationSingletonTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -96,7 +97,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationContextExtendsFindTest.findAllBeanByParentType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ConfigurationSingletonTest.cofigurationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -109,7 +110,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.beanfind.ApplicationContextExtendsFindTest.findAllBeanByParentType&quot;" />
+            <option value="&quot;singleton.ConfigurationSingletonTest.cofigurationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -119,7 +120,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BeanDefinitionTest.findApplicationBean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ConfigurationSingletonTest.configurationDepp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.beandefinition.BeanDefinitionTest.findApplicationBean&quot;" />
+            <option value="&quot;singleton.ConfigurationSingletonTest.configurationDepp&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -142,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="XmlAppContext" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatefulServiceTest.statefulServiceSingleton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -155,7 +156,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.xml.XmlAppContext&quot;" />
+            <option value="&quot;singleton.StatefulServiceTest.statefulServiceSingleton&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -165,7 +166,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="XmlAppContext.xmlAppContext" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="'core.test'에 있는 테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -177,8 +178,6 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hello.core.xml.XmlAppContext.xmlAppContext&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BeanDefinitionTest.findApplicationBean" />
-        <item itemvalue="Gradle.XmlAppContext.xmlAppContext" />
-        <item itemvalue="Gradle.XmlAppContext" />
-        <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findAllBeanByObjectType" />
-        <item itemvalue="Gradle.ApplicationContextExtendsFindTest.findAllBeanByParentType" />
+        <item itemvalue="Gradle.'core.test'에 있는 테스트" />
+        <item itemvalue="Gradle.ConfigurationSingletonTest.cofigurationTest" />
+        <item itemvalue="Gradle.ConfigurationSingletonTest" />
+        <item itemvalue="Gradle.ConfigurationSingletonTest.configurationDepp" />
+        <item itemvalue="Gradle.StatefulServiceTest.statefulServiceSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +213,8 @@
       <option name="presentableId" value="Default" />
       <updated>1673224729403</updated>
       <workItem from="1673224731045" duration="11703000" />
-      <workItem from="1673309625459" duration="11484000" />
+      <workItem from="1673309625459" duration="11485000" />
+      <workItem from="1673399106772" duration="8433000" />
     </task>
     <servers />
   </component>
@@ -240,6 +240,16 @@
           <line>33</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/singleton/StatefulServiceTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/singleton/ConfigurationSingletonTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java</url>
           <line>31</line>
@@ -248,6 +258,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/singleton/ConfigurationSingletonTest.java</url>
+          <line>16</line>
+          <properties class="singleton.ConfigurationSingletonTest" method="cofigurationTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
