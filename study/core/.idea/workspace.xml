@@ -33,6 +33,7 @@
         <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -72,9 +73,12 @@
       <recent name="singleton" />
       <recent name="hello.core.discount" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.core.scan.filter" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.'core.test'에 있는 테스트">
-    <configuration name="ConfigurationSingletonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AutoAppConfigTest.basicScan">
+    <configuration name="AutoAppConfigTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -87,7 +91,53 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;singleton.ConfigurationSingletonTest&quot;" />
+            <option value="&quot;hello.core.scan.AutoAppConfigTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AutoAppConfigTest.basicScan" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.core.scan.AutoAppConfigTest.basicScan&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ComponentFilterAppConfigTest.filterScan" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.core.scan.filter.ComponentFilterAppConfigTest.filterScan&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -111,52 +161,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;singleton.ConfigurationSingletonTest.cofigurationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ConfigurationSingletonTest.configurationDepp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;singleton.ConfigurationSingletonTest.configurationDepp&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="StatefulServiceTest.statefulServiceSingleton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;singleton.StatefulServiceTest.statefulServiceSingleton&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AutoAppConfigTest.basicScan" />
+        <item itemvalue="Gradle.AutoAppConfigTest" />
+        <item itemvalue="Gradle.ComponentFilterAppConfigTest.filterScan" />
         <item itemvalue="Gradle.'core.test'에 있는 테스트" />
         <item itemvalue="Gradle.ConfigurationSingletonTest.cofigurationTest" />
-        <item itemvalue="Gradle.ConfigurationSingletonTest" />
-        <item itemvalue="Gradle.ConfigurationSingletonTest.configurationDepp" />
-        <item itemvalue="Gradle.StatefulServiceTest.statefulServiceSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +219,7 @@
       <workItem from="1673224731045" duration="11703000" />
       <workItem from="1673309625459" duration="11485000" />
       <workItem from="1673399106772" duration="8433000" />
+      <workItem from="1673499539230" duration="3866000" />
     </task>
     <servers />
   </component>
@@ -241,12 +246,12 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/singleton/StatefulServiceTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/hello/core/singleton/StatefulServiceTest.java</url>
           <line>13</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/singleton/ConfigurationSingletonTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/hello/core/singleton/ConfigurationSingletonTest.java</url>
           <line>13</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -260,7 +265,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/singleton/ConfigurationSingletonTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/hello/core/singleton/ConfigurationSingletonTest.java</url>
           <line>16</line>
           <properties class="singleton.ConfigurationSingletonTest" method="cofigurationTest">
             <option name="EMULATED" value="true" />

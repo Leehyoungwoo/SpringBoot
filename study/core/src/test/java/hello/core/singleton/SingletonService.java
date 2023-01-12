@@ -1,7 +1,4 @@
-package singleton;
-
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+package hello.core.singleton;
 
 public class SingletonService {
 
