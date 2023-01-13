@@ -90,20 +90,7 @@
       <recent name="hello.core.scan.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AllBeanTest.findAllBean">
-    <configuration name="HelloLombok" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello.core.HelloLombok" />
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.BeanLifeCycleTest.lifeCycleTest">
     <configuration name="AllBeanTest.findAllBean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -150,7 +137,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AutowiredTest.AutowiredOption" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BeanLifeCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -163,7 +150,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.autowired.AutowiredTest.AutowiredOption&quot;" />
+            <option value="&quot;hello.core.lifecycle.BeanLifeCycleTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BeanLifeCycleTest.lifeCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.core.lifecycle.BeanLifeCycleTest.lifeCycleTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -203,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BeanLifeCycleTest.lifeCycleTest" />
+        <item itemvalue="Gradle.BeanLifeCycleTest" />
         <item itemvalue="Gradle.AllBeanTest.findAllBean" />
         <item itemvalue="Gradle.'core.test'에 있는 테스트" />
         <item itemvalue="Gradle.AutoAppConfigTest.basicScan" />
-        <item itemvalue="애플리케이션.HelloLombok" />
-        <item itemvalue="Gradle.AutowiredTest.AutowiredOption" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +233,7 @@
       <workItem from="1673309625459" duration="11485000" />
       <workItem from="1673399106772" duration="8433000" />
       <workItem from="1673499539230" duration="4654000" />
-      <workItem from="1673584018348" duration="8526000" />
+      <workItem from="1673584018348" duration="12267000" />
     </task>
     <servers />
   </component>
