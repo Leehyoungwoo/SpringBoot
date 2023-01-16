@@ -63,6 +63,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -79,6 +83,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hello.core.web" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -90,8 +97,8 @@
       <recent name="hello.core.scan.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BeanLifeCycleTest.lifeCycleTest">
-    <configuration name="AllBeanTest.findAllBean" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Spring Boot.CoreApplication">
+    <configuration name="PrototypeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -104,7 +111,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.autowired.AllBeanTest.findAllBean&quot;" />
+            <option value="&quot;hello.core.scope.PrototypeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -114,7 +121,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AutoAppConfigTest.basicScan" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PrototypeTest.prototypeBeanTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -127,7 +134,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.scan.AutoAppConfigTest.basicScan&quot;" />
+            <option value="&quot;hello.core.scope.PrototypeTest.prototypeBeanTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -137,7 +144,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BeanLifeCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SingletonTest.singletonBeanFind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -150,7 +157,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.lifecycle.BeanLifeCycleTest&quot;" />
+            <option value="&quot;hello.core.scope.SingletonTest.singletonBeanFind&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -160,7 +167,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BeanLifeCycleTest.lifeCycleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SingletonWithPrototypeTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -173,7 +180,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.core.lifecycle.BeanLifeCycleTest.lifeCycleTest&quot;" />
+            <option value="&quot;hello.core.scope.SingletonWithPrototypeTest1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,7 +190,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="'core.test'에 있는 테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SingletonWithPrototypeTest1.singletonClientUsePrototype" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -195,6 +202,8 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.core.scope.SingletonWithPrototypeTest1.singletonClientUsePrototype&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -213,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BeanLifeCycleTest.lifeCycleTest" />
-        <item itemvalue="Gradle.BeanLifeCycleTest" />
-        <item itemvalue="Gradle.AllBeanTest.findAllBean" />
-        <item itemvalue="Gradle.'core.test'에 있는 테스트" />
-        <item itemvalue="Gradle.AutoAppConfigTest.basicScan" />
+        <item itemvalue="Gradle.SingletonWithPrototypeTest1" />
+        <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUsePrototype" />
+        <item itemvalue="Gradle.PrototypeTest" />
+        <item itemvalue="Gradle.PrototypeTest.prototypeBeanTest" />
+        <item itemvalue="Gradle.SingletonTest.singletonBeanFind" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +242,8 @@
       <workItem from="1673309625459" duration="11485000" />
       <workItem from="1673399106772" duration="8433000" />
       <workItem from="1673499539230" duration="4654000" />
-      <workItem from="1673584018348" duration="12267000" />
+      <workItem from="1673584018348" duration="12627000" />
+      <workItem from="1673832826485" duration="8454000" />
     </task>
     <servers />
   </component>
