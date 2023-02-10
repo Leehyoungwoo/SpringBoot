@@ -8,7 +8,7 @@ public interface ControllerV4 {
      *
      * @param paramMap
      * @param model
-     * @return viewName
+     * @return view nam
      */
     String process(Map<String, String> paramMap, Map<String, Object> model);
 
