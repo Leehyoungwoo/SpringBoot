@@ -47,27 +47,48 @@ public class BasicItemController {
         item.setQuantity(quantity);
 
         itemRepository.save(item);
-
         model.addAttribute("item", item);
-
         return "basic/item";
     }
 //    @PostMapping("/add")
     public String addItemV2(@ModelAttribute("item") Item item, Model model) {
-
         itemRepository.save(item);
 //        model.addAttribute("item", item); //자동 추가, 생략 가능
+        return "basic/item";
+    }
+
+//    @PostMapping("/add")
+    public String addItemV3(@ModelAttribute Item item, Model model) {
+        itemRepository.save(item);
+//        model.addAttribute("item", item); //자동 추가, 생략 가능
+        return "basic/item";
+    }
+//    @PostMapping("/add")
+    public String addItemV4(Item item) {
+        itemRepository.save(item);
         return "basic/item";
     }
 
     @PostMapping("/add")
-    public String addItemV3(@ModelAttribute Item item, Model model) {
+    public String addItemV5(Item item) {
 
         itemRepository.save(item);
-//        model.addAttribute("item", item); //자동 추가, 생략 가능
-        return "basic/item";
+        return "redirect:/basic/item" + item.getId();
     }
 
+
+    @GetMapping("/{itemId}/edit")
+    public String editForm(@PathVariable Long itemId, Model model) {
+        Item item = itemRepository.findById(itemId);
+        model.addAttribute("item", item);
+        return "basic/editForm";
+    }
+
+    @PostMapping("/{itemId}/edit")
+    public String edit(@PathVariable Long itemId, @ModelAttribute Item item) {
+        itemRepository.update(itemId, item);
+        return "redirect:/basic/items/{itemId}";
+    }
     /**
      * 테스트용 데이터 추가
      */
